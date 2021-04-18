@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <title>Arkademy</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <table>
+      <div class="th"><img src="http://www.scholarsofficial.com/wp-content/uploads/2020/04/Beasiswa-BootCamp-Arkademy-untuk-Belajar-Pemrograman-630x380.png" alt="Logo Arkademy"></div>
+      <tr>
+        <td >
+          <form action="" autocomplete="off" onsubmit="event.preventDefault();onFormSubmit();" class="needs-validation">
+            <div class="form-group">
+              <label for="">Nama Produk</label>
+              <input type="text" class="form-control"name="namaProduk" id="namaProduk" required>
+              <div class="valid-feedback">
+                Terlihat bagus!
+              </div>
+            </div>
+             <div class="form-group">
+              <label for="">Keterangan</label>
+              <input type="text" class="form-control"name="keterangan" id="keterangan">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Rp.</span>
+              </div>
+              <input type="number" step="500" max="99999999" id="harga" class="form-control number-separator" placeholder="Harga dalam rupiah" required>
+              <div class="input-group-append">
+                <span class="input-group-text"></span>
+              </div>
+            </div>
+            
+             <div class="form-group">
+              <label for="" >Jumlah</label>
+              <input type="number" class="form-control" name="jumlah" id="jumlah" required>
+            </div>
+            <div class="form-action-buttons"><input type="submit" class="submit" value="submit" id="submit"></div>
+          </form>
+        </td>
+        <td>
+          <table class="list table" id="arkalist">
+           <thead>
+             <tr>
+              <th scope="col">Nama Produk</th>
+              <th scope="col">Keterangan</th>
+              <th scope="col">Harga</th>
+              <th scope="col">Jumlah</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+   
+  </body>
+</html>

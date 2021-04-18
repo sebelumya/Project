@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+
+}
+.th{
+    margin:auto;
+    margin-left:550px;
+}
+img{
+    margin:auto;
+    max-width: 30%;
+}
+
+.hide{
+    color: red !important;
+}
+table{
+    margin:auto;
+    margin-top:50px;
+}
+
+
+.table{
+    display: flexbox;
+    margin: auto;
+    margin-top: -150px;
+    margin-left: 100px;
+}

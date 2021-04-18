@@ -1,0 +1,30 @@
+html{
+    height:100%    
+}
+body{
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(42, 38, 61, 0.82);
+}
+.btn {
+    background-color: black !important;
+    border-color: black !important ;
+}
+.jumbotron{
+    background-color: lightgreen !important;
+    border-radius: 0px !important;
+    height: 50% im !important;
+}
+.navbar-dark .navbar-toggler{
+    background-color: lime;
+    border:solid 1px green;
+}
+.navbar-dark .navbar-toggler:hover{
+    background-color: white;
+    
+    }
+.navlink .contact{
+    display:fl;
+    float:right;
+}
